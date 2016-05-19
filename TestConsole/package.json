@@ -11,6 +11,7 @@
     "run": "node ./src/app.js",
     "run-debug": "node %NODE_DEBUG_OPTION% ./src/app.js",
     "test": "mocha --recursive",
+    "watch": "mocha -R min --recursive --watch",
     "build": "npm install",
     "cover": "istanbul cover node_modules/mocha/bin/_mocha --recursive"
   },
