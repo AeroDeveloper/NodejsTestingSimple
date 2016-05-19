@@ -1,0 +1,8 @@
+{
+  "title" : "dummy title",
+  "message" : "dummy message",
+  "error": {
+    "status": "404",
+    "stack" : ["dummy stack 1","dummy stack 2"]
+  }
+}
