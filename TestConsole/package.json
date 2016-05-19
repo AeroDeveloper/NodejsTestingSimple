@@ -9,6 +9,7 @@
   },
   "scripts": {
     "run": "node ./src/app.js",
+    "run-debug": "node %NODE_DEBUG_OPTION% ./src/app.js",
     "watch": "mocha --recursive -R min --watch",
     "test": "mocha --recursive",
     "build": "npm install"
