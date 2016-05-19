@@ -8,7 +8,7 @@
     "email": "barrett@wbsimms.com"
   },
   "scripts": {
-    "run": "node app.js",
+    "run": "node ./src/app.js",
     "watch": "mocha --recursive -R min --watch",
     "test": "mocha --recursive",
     "build": "npm install"
